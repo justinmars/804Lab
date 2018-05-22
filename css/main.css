@@ -291,3 +291,133 @@ textarea {
     }
 }
 
+/*全局样式编写==================================*/
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-size: 15px;
+    line-height: 1.50;
+    color: #333333;
+    background-color: #fff;
+    position: relative;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+img{
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+/*全局样式结束==================================*/
+/*头部样式开始==================================*/
+/*header{
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px  0;
+}*/
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+nav a{
+    color: #ffffff;
+}
+nav a:hover{
+    color: #337ab7;
+}
+nav div {
+    position: relative;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav div ul{
+    position: absolute;
+    right: 20px;
+}
+
+nav .nav-link{
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/*滚动样式开始==================================*/
+
+.fixed-header-on nav{
+    height: 70px;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.fixed-header-on  .navbar-brand{
+    font-size: 25px;
+}
+
+.fixed-header-on nav .nav-link{
+    font-size: 17px;
+}
+
+/*滚动样式结束==================================*/
+/*index样式开始==================================*/
+
+.index{
+    height: 100%;
+}
+
+.index::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    content: ' ';
+}
+
+.index.caption{
+    z-index:  1;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+}
+
+.index img{
+    z-index: 100;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 400%;
+}
+
+/*index样式结束==================================*/
+/*cards样式开始==================================*/
+
+.cards{
+    padding: 0px;
+}
+
+.cards .container-fluid{
+    height: 200px;
+}
+.cards #cards{
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    margin-left: 500px;
+}
+
+/*cards样式结束==================================*/
