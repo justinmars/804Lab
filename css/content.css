@@ -1,0 +1,10 @@
+.form-group label{text-align: right;}
+.form-group {}
+.main-content {position: relative;}
+
+/* #tit input {width: 280px;} */
+#editor1 { max-height: 380px;height: 380px;}
+#tit{margin-top: 8px;}
+
+ #tag{margin-top: 15px;}
+.cont {position: absolute;margin-top: 85px;}
